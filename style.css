@@ -1,0 +1,42 @@
+body {
+    background-color: hsl(212, 45%, 89%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    font-size: 15px;
+    font-family: gatin;
+}
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;}
+main {
+background-color: white;
+border-radius: 15px;
+width: 350px;
+display: flex;
+flex-flow: column nowrap;
+align-content: space-between;
+padding: 20px;
+}
+h1 {
+    margin-top: 20px;
+    font-weight: 700px;
+    text-align: center;
+}
+p {
+    margin-top: 20px;
+    font-weight: 400px;
+    color: hsl(216, 15%, 48%);
+    text-align: center;
+}
+img {
+    border-radius: 20px;
+    
+}
+@font-face {
+    font-family: gatin;
+    src: url(Outfit-VariableFont_wght.ttf);
+}
